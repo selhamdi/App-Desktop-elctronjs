@@ -52,6 +52,8 @@ function readCantact() {
     var html = ``
     for (var i = 0; i < dataArray.toString().split("\n").length; i++) {
       html = ` <div class="content-container" id="container">
+        <button class="open-button"><i class="icon peoples"
+        style="margin-left: 4%;"></i></button>
           <span class="phone" id="spanphone">${dataArray.toString().split("\n")[i]}</span>
           </div>`
       tab1.innerHTML = tab1.innerHTML + html;
@@ -149,7 +151,7 @@ function popupOpenClose(popup) {
   });
 
   /* Close popup and remove errors if user clicks on cancel or close buttons */
-  $(popup).find("button[name=close]").on("click", function () {
+  $(popup).find("button[name=fermer]").on("click", function () {
     if ($(".formElementError").is(':visible')) {
       $(".formElementError").remove();
     }

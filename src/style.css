@@ -7,9 +7,11 @@ body {
 }
 
 .btn-read{
+  width: 37%;
   margin-top: 12%;
   background-color: red;
   border: none;
+  padding: 13px 0;
 }
 .button {
    width: 13%;
@@ -255,7 +257,7 @@ button:focus {
   left: 0;
   top: 0;
 }
-.popup > div {
+/* .popup > div {
   max-width: 213px;
   width: 86%;
   position: fixed;
@@ -269,7 +271,7 @@ button:focus {
   border: 5px solid #9AD3DE;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
-}
+} */
 .popup1 {
   background: rgba(100, 100, 100, 0.5);
   position: fixed;
@@ -280,7 +282,7 @@ button:focus {
   left: 0;
   top: 0;
 }
-.popup1 > div {
+/* .popup1 > div {
   max-width: 218px;
   width: 13%;
   position: fixed;
@@ -294,7 +296,7 @@ button:focus {
   border: 5px solid #9AD3DE;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
-}
+} */
 
 
 
@@ -355,4 +357,7 @@ button:focus {
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
+}
+.popup h3{
+  margin-top:3%
 }

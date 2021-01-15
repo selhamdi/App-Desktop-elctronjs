@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- <script type="text/javascript" src="script.js"></script> -->
   <script type="text/javascript" src="script.js"></script>
   <script type="text/javascript" src="index.js"></script>
 
@@ -66,16 +67,42 @@
             <!-- pop up cantact -->
             <button class="open-button" data-js="openn" onclick="saveCantact()"><i class="icon peoples"
                 style="margin-left: 4%;"></i></button>
-            <div class="popup1">
-              <input type="text" id="name-cantact" placeholder="entrez le nom" style="border: none; width: 40%;">
+            <div class="popup1" style="  position: fixed;
+            height: 11%;
+            top: 28%;
+            left: 32%;
+            border: 1px solid;
+            max-width: 218px;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 37%;
+            background: #FFFFFF;
+            padding: 30px;
+            border: 5px solid #9AD3DE;
+            border-radius: 10px;">
+              <input type="text" id="name-cantact" placeholder="entrez le nom" style="border: none; width: 80%;"><br>
               <button name="fermer" class="btn-read" onclick="readCantact()">Close</button>
             </div>
             <!-- popup appel -->
             <button class="button" data-js="open" onclick="save()"><i class="icon phone"
                 style="margin-left: 2%;"></i></button>
-            <div class="popup">
+            <div class="popup" style="    position: fixed;
+            height: 11%;
+            top: 28%;
+            left: 32%;
+            border: 1px solid;
+            max-width: 218px;
+            position: fixed;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 37%;
+            background: #FFFFFF;
+            padding: 30px;
+            border: 5px solid #9AD3DE;
+            border-radius: 10px;">
               <h3>Appel en cours .....</h3>
-              <button name="close" class="btn-read" onclick="read()">Close</button>
+              <button name="fermer" class="btn-read" onclick="read()">Close</button>
             </div>
           </div>
           <div>
